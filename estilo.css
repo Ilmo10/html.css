@@ -22,7 +22,7 @@ ul a{
     text-decoration: none;
     text-indent: 40px;
     line-height: 40px;
-    background: url(seta/menu.png) no-repeat right bottom;
+    background: #f7b600 url(seta/menu.png) no-repeat right bottom;
 
 }
 ul a:hover{
@@ -30,7 +30,20 @@ ul a:hover{
     height: 40px;
     display: block;
     background: url(seta/menu.png) no-repeat left bottom;
+    background-color: #f99200;
     color: #fff;
 
+}
+#home .home a,
+#sobre .sobre a,
+#serviços .serviços a,
+#noticias .noticias a,
+#contato .contato a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    background: url(seta/menu.png) no-repeat left bottom;
+    background-color: #f99200;
+    color: #fff;
 }
  
